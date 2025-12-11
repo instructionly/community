@@ -13,7 +13,7 @@ ion is our mascot, our logo, and the command that brings your instructions to li
 When you say `ion` to your AI assistant, you're activating Instructionly:
 
 ```
-ion Write a blog post about productivity tips
+ion, please write a blog post about productivity tips
 ```
 
 ## Getting Help
