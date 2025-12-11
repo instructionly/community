@@ -45,4 +45,4 @@ For billing, account issues, or sensitive matters, use our [in-app support](http
 
 ## License
 
-This repository is for community discussions only and does not contain source code.
+This repository is for community discussions only and does not contain source code. Instructionly is proprietary software. See [LICENSE](LICENSE) for details.
