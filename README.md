@@ -1,10 +1,20 @@
 # Instructionly Community
 
-Welcome to the official community space for [Instructionly](https://instructionly.io) - the AI instruction delivery platform for developers.
+Welcome to the official community space for [Instructionly](https://instructionly.io) - the AI instruction platform.
 
 ## What is Instructionly?
 
-Instructionly delivers skill-based instructions to AI-powered IDEs via MCP integration, helping developers get consistent, high-quality AI assistance.
+Instructionly delivers your rules and instructions to any AI tool via MCP integration. Works with ChatGPT, Claude, Gemini, Cursor, Windsurf, and more.
+
+## Meet ion
+
+ion is our mascot, our logo, and the command that brings your instructions to life. Just like ions connect atoms to form molecules, ion connects your knowledge to AI.
+
+When you say `ion` to your AI assistant, you're activating Instructionly:
+
+```
+ion Write a blog post about productivity tips
+```
 
 ## Getting Help
 
@@ -12,7 +22,7 @@ Instructionly delivers skill-based instructions to AI-powered IDEs via MCP integ
 
 Use [GitHub Discussions](https://github.com/instructionly/community/discussions) for:
 
-- **Q&A** - Questions about using Instructionly, setting up skills, or IDE integration
+- **Q&A** - Questions about using Instructionly, setting up skills, or AI tool integration
 - **Ideas** - Feature requests and suggestions
 - **Bug Reports** - Report issues you've encountered
 
@@ -30,7 +40,7 @@ For billing, account issues, or sensitive matters, use our [in-app support](http
 
 - Be respectful and constructive
 - Search existing discussions before creating new ones
-- Provide context when asking questions (IDE, MCP client, etc.)
+- Provide context when asking questions (AI tool, MCP client, etc.)
 - For security vulnerabilities, please use in-app support rather than public discussions
 
 ## License
