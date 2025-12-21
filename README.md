@@ -16,6 +16,20 @@ When you say `ion` to your AI assistant, you're activating Instructionly:
 ion, please write a blog post about productivity tips
 ```
 
+## Community Skills
+
+Browse and use skills created by the community! Check out the [`skills/`](./skills) directory for ready-to-import skill sets.
+
+**Want to share your skills?** See our [Contributing Guide](CONTRIBUTING.md) to submit your own.
+
+### Featured Categories
+
+- **React** - Component patterns, hooks, testing
+- **TypeScript** - Strict typing, best practices
+- **Python** - FastAPI, Django, general guidelines
+- **Code Review** - Review checklists and standards
+- **General** - Universal coding guidelines
+
 ## Getting Help
 
 ### Public Discussions
@@ -25,6 +39,7 @@ Use [GitHub Discussions](https://github.com/instructionly/community/discussions)
 - **Q&A** - Questions about using Instructionly, setting up skills, or AI tool integration
 - **Ideas** - Feature requests and suggestions
 - **Bug Reports** - Report issues you've encountered
+- **Skill Requests** - Request skills you'd like to see
 
 ### Private Support
 
@@ -45,4 +60,6 @@ For billing, account issues, or sensitive matters, use our [in-app support](http
 
 ## License
 
-This repository is for community discussions only and does not contain source code. Instructionly is proprietary software. See [LICENSE](LICENSE) for details.
+This repository is for community discussions and shared skills. Instructionly is proprietary software. See [LICENSE](LICENSE) for details.
+
+Skills contributed to this repository are shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) unless otherwise specified.
