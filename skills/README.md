@@ -24,26 +24,16 @@ A collection of ready-to-use skills for Instructionly, created and maintained by
 ## Available Skills
 
 ### React
+
 | Skill | Description |
 |-------|-------------|
 | [react-best-practices.json](./examples/react-best-practices.json) | Component patterns, hooks, and React conventions |
 
 ### TypeScript
+
 | Skill | Description |
 |-------|-------------|
 | [typescript-strict.json](./examples/typescript-strict.json) | Strict TypeScript guidelines for type-safe code |
-
-### Python
-*Coming soon - [contribute one!](../CONTRIBUTING.md)*
-
-### Code Review
-*Coming soon - [contribute one!](../CONTRIBUTING.md)*
-
-### Testing
-*Coming soon - [contribute one!](../CONTRIBUTING.md)*
-
-### General
-*Coming soon - [contribute one!](../CONTRIBUTING.md)*
 
 ## Contributing
 

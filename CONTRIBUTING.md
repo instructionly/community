@@ -33,7 +33,23 @@ skills/
 
 If your category doesn't exist, create it!
 
-### 4. Submit a Pull Request
+### 4. Add your skill to the catalog
+
+Update `skills/README.md` to include your skill in the **Available Skills** section:
+
+1. Find or create the category section (e.g., `### React`, `### Python`)
+2. Add a row to the table with your skill file and description
+
+Example:
+```markdown
+### Python
+
+| Skill | Description |
+|-------|-------------|
+| [fastapi-guidelines.json](./python/fastapi-guidelines.json) | Best practices for FastAPI development |
+```
+
+### 5. Submit a Pull Request
 
 Push your changes and open a PR to the main repository.
 
@@ -128,6 +144,7 @@ Before submitting, ensure your skill:
 - [ ] Contains actionable instructions (not vague suggestions)
 - [ ] Doesn't duplicate existing skills
 - [ ] Is tested by importing into Instructionly
+- [ ] Is added to `skills/README.md` catalog
 
 ## Testing Your Skill
 

@@ -2,13 +2,9 @@ name: Validate Skills
 
 on:
   pull_request:
-    paths:
-      - 'skills/**/*.json'
   push:
     branches:
       - main
-    paths:
-      - 'skills/**/*.json'
 
 jobs:
   validate:
