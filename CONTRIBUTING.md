@@ -1,6 +1,15 @@
+# Contributing to Instructionly Community
+
+Thanks for contributing! This guide explains how to submit skills and workflows.
+
+- [Contributing Skills](#contributing-skills)
+- [Contributing Workflows](#contributing-workflows)
+
+---
+
 # Contributing Skills
 
-Thanks for contributing to the Instructionly community! This guide explains how to submit your skills for others to use.
+This section explains how to submit skills for others to use.
 
 ## How to Contribute
 
@@ -167,3 +176,98 @@ By contributing, you agree that your skill will be shared under [CC BY 4.0](http
 ## Questions?
 
 Open a [Discussion](https://github.com/instructionly/community/discussions) if you need help!
+
+---
+
+# Contributing Workflows
+
+This section explains how to submit workflows for others to use.
+
+## How to Contribute Workflows
+
+### 1. Fork this repository
+
+Click the "Fork" button at the top right of this page.
+
+### 2. Create your workflow file
+
+Add your workflow JSON file to `workflows/examples/`:
+
+```
+workflows/
+└── examples/
+    └── your-workflow.json
+```
+
+### 3. Add to the catalog
+
+Update `workflows/README.md` to include your workflow in the **Available Workflows** table.
+
+### 4. Submit a Pull Request
+
+Push your changes and open a PR.
+
+## Workflow JSON Format
+
+```json
+{
+  "name": "Bug Fix",
+  "description": "Simple workflow for fixing a bug",
+  "nodes": [
+    {
+      "type": "start",
+      "title": "Bug Reported",
+      "description": "A bug has been identified",
+      "positionX": 250,
+      "positionY": 50
+    },
+    {
+      "type": "action",
+      "title": "Fix",
+      "description": "Implement the fix",
+      "positionX": 250,
+      "positionY": 150
+    },
+    {
+      "type": "end",
+      "title": "Done",
+      "description": "Bug resolved",
+      "positionX": 250,
+      "positionY": 250
+    }
+  ],
+  "edges": [
+    { "sourceNodeIndex": 0, "targetNodeIndex": 1 },
+    { "sourceNodeIndex": 1, "targetNodeIndex": 2 }
+  ]
+}
+```
+
+### Node Types
+
+| Type | Description |
+|------|-------------|
+| `start` | Entry point of the workflow |
+| `end` | Exit point of the workflow |
+| `action` | A step or task to perform |
+| `conditional` | A decision point with multiple paths |
+
+### Edge Labels
+
+For conditional nodes, use labels to indicate the path:
+
+```json
+{ "sourceNodeIndex": 0, "targetNodeIndex": 1, "label": "Yes" }
+{ "sourceNodeIndex": 0, "targetNodeIndex": 2, "label": "No" }
+```
+
+## File Naming
+
+Use kebab-case: `bug-fix.json`, `code-review.json`
+
+## Testing Your Workflow
+
+1. Go to your Instructionly workspace
+2. Navigate to Workflows
+3. Click "Import" and upload your JSON file
+4. Verify all nodes and edges imported correctly

@@ -1,0 +1,47 @@
+{
+  "name": "Bug Fix",
+  "description": "Simple workflow for fixing a bug",
+  "nodes": [
+    {
+      "type": "start",
+      "title": "Bug Reported",
+      "description": "A bug has been identified",
+      "positionX": 250,
+      "positionY": 50
+    },
+    {
+      "type": "action",
+      "title": "Investigate",
+      "description": "Reproduce and identify root cause",
+      "positionX": 250,
+      "positionY": 150
+    },
+    {
+      "type": "action",
+      "title": "Fix",
+      "description": "Implement the fix",
+      "positionX": 250,
+      "positionY": 250
+    },
+    {
+      "type": "action",
+      "title": "Test",
+      "description": "Verify the fix works",
+      "positionX": 250,
+      "positionY": 350
+    },
+    {
+      "type": "end",
+      "title": "Done",
+      "description": "Bug resolved",
+      "positionX": 250,
+      "positionY": 450
+    }
+  ],
+  "edges": [
+    { "sourceNodeIndex": 0, "targetNodeIndex": 1 },
+    { "sourceNodeIndex": 1, "targetNodeIndex": 2 },
+    { "sourceNodeIndex": 2, "targetNodeIndex": 3 },
+    { "sourceNodeIndex": 3, "targetNodeIndex": 4 }
+  ]
+}

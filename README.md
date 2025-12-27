@@ -20,7 +20,11 @@ ion, please write a blog post about productivity tips
 
 Browse and use skills created by the community! Check out the [`skills/`](./skills) directory for ready-to-import skill sets.
 
-**Want to share your skills?** See our [Contributing Guide](CONTRIBUTING.md) to submit your own.
+## Community Workflows
+
+Browse and use workflows created by the community! Check out the [`workflows/`](./workflows) directory for ready-to-import workflow templates.
+
+**Want to contribute?** See our [Contributing Guide](CONTRIBUTING.md) to submit your own skills or workflows.
 
 ### Featured Categories
 
