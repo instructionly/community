@@ -29,7 +29,7 @@ Workflows are visual process diagrams that document step-by-step procedures. The
 
 | Workflow | Description |
 |----------|-------------|
-| [bug-fix.json](./examples/bug-fix.json) | Simple workflow for fixing a bug |
+| [bug-triage.json](./examples/bug-triage.json) | Workflow for triaging and prioritizing bug reports |
 
 ## Contributing
 
