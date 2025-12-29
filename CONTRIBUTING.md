@@ -1,8 +1,9 @@
 # Contributing to Instructionly Community
 
-Thanks for contributing! This guide explains how to submit skills and workflows.
+Thanks for contributing! This guide explains how to submit skills, commands, and workflows.
 
 - [Contributing Skills](#contributing-skills)
+- [Contributing Commands](#contributing-commands)
 - [Contributing Workflows](#contributing-workflows)
 
 ---
@@ -176,6 +177,99 @@ By contributing, you agree that your skill will be shared under [CC BY 4.0](http
 ## Questions?
 
 Open a [Discussion](https://github.com/instructionly/community/discussions) if you need help!
+
+---
+
+# Contributing Commands
+
+This section explains how to submit slash commands for others to use.
+
+## How to Contribute Commands
+
+### 1. Fork this repository
+
+Click the "Fork" button at the top right of this page.
+
+### 2. Create your command file
+
+Add your command JSON file to `commands/examples/`:
+
+```
+commands/
+└── examples/
+    └── your-command.json
+```
+
+### 3. Add to the catalog
+
+Update `commands/README.md` to include your command in the **Available Commands** table.
+
+### 4. Submit a Pull Request
+
+Push your changes and open a PR.
+
+## Command JSON Format
+
+```json
+{
+  "name": "security-review",
+  "description": "Perform a comprehensive security review",
+  "content": "Review the code for security vulnerabilities...",
+  "arguments": [
+    {
+      "name": "focus-area",
+      "description": "Specific area to focus on",
+      "required": false
+    }
+  ]
+}
+```
+
+### Field Reference
+
+| Field | Required | Description | Limits |
+|-------|----------|-------------|--------|
+| `name` | Yes | Command name in kebab-case | 1-30 chars |
+| `description` | Yes | Brief description | 1-100 chars |
+| `content` | Yes | The command prompt | 1-2000 chars |
+| `arguments` | No | Optional arguments | Max 3 |
+
+### Argument Fields
+
+| Field | Required | Description | Limits |
+|-------|----------|-------------|--------|
+| `name` | Yes | Argument name in kebab-case | 1-30 chars |
+| `description` | No | What the argument is for | Max 100 chars |
+| `required` | No | Whether the argument is required | boolean |
+
+## File Naming
+
+Use kebab-case for file names:
+- `security-review.json`
+- `code-review.json`
+- `explain-code.json`
+
+**Important:** The file name should match the `name` field in the JSON.
+
+## Quality Guidelines
+
+Before submitting, ensure your command:
+
+- [ ] Has a clear, descriptive name
+- [ ] Uses the correct JSON format
+- [ ] Contains actionable prompt content
+- [ ] Doesn't duplicate existing commands
+- [ ] Is tested by importing into Instructionly
+- [ ] Is added to `commands/README.md` catalog
+- [ ] Has a name and file name in kebab-case
+
+## Testing Your Command
+
+1. Go to your Instructionly workspace
+2. Navigate to Commands
+3. Click "Import" and upload your JSON file
+4. Verify the command appears and works correctly
+5. Test with and without arguments (if applicable)
 
 ---
 
