@@ -21,7 +21,7 @@
     "content": {
       "type": "string",
       "minLength": 1,
-      "maxLength": 2000,
+      "maxLength": 5000,
       "description": "The command prompt content"
     },
     "arguments": {
