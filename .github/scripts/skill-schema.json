@@ -8,7 +8,7 @@
     "name": {
       "type": "string",
       "minLength": 1,
-      "maxLength": 100,
+      "maxLength": 40,
       "description": "The skill name"
     },
     "action": {
@@ -24,7 +24,7 @@
     "description": {
       "type": "string",
       "minLength": 1,
-      "maxLength": 500,
+      "maxLength": 100,
       "description": "Brief description of the skill"
     },
     "categories": {
@@ -46,12 +46,12 @@
         "name": {
           "type": "string",
           "minLength": 1,
-          "maxLength": 100,
+          "maxLength": 40,
           "description": "Category name"
         },
         "description": {
           "type": "string",
-          "maxLength": 500,
+          "maxLength": 100,
           "description": "Category description"
         },
         "instructions": {
@@ -73,7 +73,7 @@
         "content": {
           "type": "string",
           "minLength": 1,
-          "maxLength": 10000,
+          "maxLength": 100,
           "description": "The instruction content"
         },
         "type": {
@@ -87,7 +87,7 @@
           "items": {
             "type": "string",
             "minLength": 1,
-            "maxLength": 2000
+            "maxLength": 100
           },
           "description": "Sub-instructions for conditional type"
         }
