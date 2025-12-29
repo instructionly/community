@@ -20,15 +20,15 @@ ion, please write a blog post about productivity tips
 
 Browse and use skills created by the community! Check out the [`skills/`](./skills) directory for ready-to-import skill sets.
 
-## Community Commands
-
-Browse and use slash commands created by the community! Check out the [`commands/`](./commands) directory for ready-to-import commands like `/security-review`, `/code-review`, and more.
-
 ## Community Workflows
 
 Browse and use workflows created by the community! Check out the [`workflows/`](./workflows) directory for ready-to-import workflow templates.
 
-**Want to contribute?** See our [Contributing Guide](CONTRIBUTING.md) to submit your own skills, commands, or workflows.
+## Community Commands
+
+Browse and use slash commands created by the community! Check out the [`commands/`](./commands) directory for ready-to-import commands like `/security-review`, `/code-review`, and more.
+
+**Want to contribute?** See our [Contributing Guide](CONTRIBUTING.md) to submit your own skills, workflows, or commands.
 
 ### Featured Categories
 
@@ -45,13 +45,11 @@ Browse and use workflows created by the community! Check out the [`workflows/`](
 Use [GitHub Discussions](https://github.com/instructionly/community/discussions) for:
 
 - **Q&A** - Questions about using Instructionly, setting up skills, or AI tool integration
-- **Ideas** - Feature requests and suggestions
 - **Bug Reports** - Report issues you've encountered
-- **Skill Requests** - Request skills you'd like to see
 
 ### Private Support
 
-For billing, account issues, or sensitive matters, use our [in-app support](https://app.instructionly.io/support).
+For billing, account issues, feature requests, or sensitive matters, use our [in-app support](https://app.instructionly.io/support).
 
 ## Resources
 
