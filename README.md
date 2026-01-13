@@ -40,12 +40,13 @@ Browse and use slash commands created by the community! Check out the [`commands
 
 ## Getting Help
 
-### Public Discussions
+### Bug Reports
 
-Use [GitHub Discussions](https://github.com/instructionly/community/discussions) for:
+Use [GitHub Issues](https://github.com/instructionly/community/issues) to report bugs or issues you've encountered.
 
-- **Q&A** - Questions about using Instructionly, setting up skills, or AI tool integration
-- **Bug Reports** - Report issues you've encountered
+### Questions & Discussions
+
+Use [GitHub Discussions](https://github.com/instructionly/community/discussions) for questions about using Instructionly, setting up skills, or AI tool integration.
 
 ### Private Support
 
